@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QTech | Creative Portfolio</title>
+
+    <!--  Custom CSS  -->
+    <link rel="stylesheet" href="./assets/style/styles.min.css">
+    <!--  Custom CSS  -->
+
+    <!--  Jquery  -->
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <!--  Jquery  -->
+
+    <!--  Bootstrap 4  -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <script src="./assets/bootstrap/popper.min.js"></script>
+    <script src="./assets/bootstrap/bootstrap.min.js"></script>
+    <!--  Bootstrap 4  -->
+
+    <!--  Line Awesome  -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!--  Line Awesome  -->
+
+
+
+    <!--  Owl Carousel  -->
+    <script src="./assets/owl-carousel/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="./assets/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/owl-carousel/owl.carousel.min.css">
+    <!--  Owl Carousel  -->
+
+    <!--    font Montserrat   -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!--    font Montserrat   -->
+
+    <!--  AOS css  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  AOS css  -->
+
+    <!--    Map   -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAP_KEY&libraries=places"></script>
+    <!--    Map   -->
+</head>
+<body>
+<!--Top Bar-->
+<header id="header">
+
+    <!--  Top Nav  -->
+    <div class="top-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+
+                    <!--Contact Number-->
+                    <div class="text-left call-num">Call Us: <a href="javascript:void(0)">+44 1632 960625</a> </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="top-nav-setting d-flex justify-content-end">
+                        <div class="social-links">
+                            <a href="javascript:void(0)"  target="_blank"><i class="lab la-facebook"></i></a>
+                            <a href="javascript:void(0)"><i class="lab la-github"></i></a>
+                            <a href="javascript:void(0)"><i class="lab la-youtube"></i></a>
+                            <a href="javascript:void(0)"><i class="lab la-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Top Nav  -->
+
+    <!--  Main Nav  -->
+    <div class="main-nav">
+        <div class="container">
+            <div class="logos">
+                <a href="index.html">
+                    <img src="./assets/placeholder/175.jpg"  alt="">
+                </a>
+            </div>
+            <div class="toggle_button">
+                <button class="btn" onclick="openNav()">
+                    <div class="bar bar1"></div>
+                    <div class="bar"></div>
+                    <div class="bar bar1"></div>
+                </button>
+            </div>
+            <ul class="navs">
+                <li class="nav-items"><a href="index.html" class="nav-links">HOME</a></li>
+                <li class="nav-items"><a href="services.html" class="nav-links">SERVICES</a></li>
+                <li class="nav-items"><a href="about.html" class="nav-links active">ABOUT US</a></li>
+                <li class="nav-items"><a href="faq.html" class="nav-links ">FAQ</a></li>
+                <li class="nav-items"><a href="blog.html" class="nav-links ">BLOG</a></li>
+                <li class="nav-items"><a href="contact.html" class="nav-links active">CONTACT</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!--  Main Nav  -->
+
+    <!--  Main Nav Two  -->
+    <div class="main-nav-two">
+        <ul class="navs-two">
+            <li class="nav-items-two"><a href="index.html" class="nav-links-two">HOME</a></li>
+            <li class="nav-items-two"><a href="services.html" class="nav-links-two">SERVICES</a></li>
+            <li class="nav-items-two"><a href="about.html" class="nav-links-two active">ABOUT US</a></li>
+            <li class="nav-items-two"><a href="faq.html" class="nav-links-two">FAQ</a></li>
+            <li class="nav-items-two"><a href="blog.html" class="nav-links-two">BLOG</a></li>
+            <li class="nav-items-two"><a href="contact.html" class="nav-links-two">CONTACT</a></li>
+        </ul>
+
+        <ul class="contact-info">
+            <li class="info-item"><i class="las la-phone"></i> +44 1632 960625</li>
+            <li class="info-item"><i class="lar la-envelope"></i>  example@mail.com</li>
+            <li class="info-item">
+                <a class="info-link" href="" target="_blank"><i class="lab la-facebook"></i></a>
+                <a class="info-link" href="javascript:void(0)"><i class="lab la-github"></i></a>
+                <a class="info-link" href="javascript:void(0)"><i class="lab la-youtube"></i></a>
+                <a class="info-link" href="javascript:void(0)"><i class="lab la-linkedin"></i></a>
+            </li>
+        </ul>
+    </div>
+    <!--  Main Nav Two  -->
+</header>
+<!--Top Bar-->
+
+<!--About Us-->
+<section id="about_us">
+    <!--  Breadcrumb Area  -->
+    <div class="about_us_breadcrumb-area " style="background-image: url('./assets/placeholder/1920_300.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="about_us_breadcrumb-wrap">
+                        <nav >
+                            <h2 class="about_us_breadcrumb-title">About Us</h2>
+                            <ul class="about_us_breadcrumb">
+                                <li class="about_us_breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="about_us_breadcrumb-item active" aria-current="page">about us</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Breadcrumb Area  -->
+    <!--About Us About-->
+    <section id="about_us_about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-1 order-1 order-lg-2" >
+                    <div class="about_us-about-thumb  moving-vertical">
+                        <div class="thumb" >
+                            <div data-aos="fade-right">
+                                <img src="./assets/media/portfolio/though-project/undraw_everywhere_together_bdmn.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-2 order-lg-1 pt-5" >
+                    <div class="thumb">
+                        <div data-aos="fade-left">
+                            <div class="about_us-about-content">
+                                <h1 class="about_us-about-title">
+                                    <span class="theme-color-text"> Provide</span> the Best
+                                    Solutions <span class="theme-color-text">to Improve</span>
+                                    your Business
+                                </h1>
+                                <p class="desc1">
+                                    Create some exclusive way to solve our customer problems
+                                </p>
+                                <p class="desc2">
+                                    labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                                    exercitationem ullam corporis suscipit laboriosam, nisi ex ea commodi consequatur? Quis autem
+                                    vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                                </p>
+                                <br>
+                                <a href="javascript:void(0)" class="btn-all">Let's Start</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Us About-->
+
+    <!--  Fun Fact  -->
+    <section id="funfacts-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title  text-center">
+                        <h2 class="h1 title">Sucessfully <span class="theme-color-text">completed</span> 2100+ <span class="theme-color-text">projects</span> with numbers of satisfied client</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-3 mt-5">
+                        <span id="count1" class="count theme-color-text"></span><span class="count theme-color-text">+</span>
+                        <h5>Satisfied Clients</h5>
+                    </div>
+                    <div class="col-md-3 mt-5">
+                        <span id="count2" class="count theme-color-text"></span><span class="count theme-color-text">+</span><br>
+                        <h5>Completed Projects</h5>
+                    </div>
+                    <div class="col-md-3 mt-5">
+                        <span id="count3" class="count theme-color-text"></span><span class="count theme-color-text">+</span><br>
+                        <h5>Cup Coffee</h5>
+                    </div>
+                    <div class="col-md-3 mt-5">
+                        <span id="count4" class="count theme-color-text"></span><span class="count theme-color-text">+</span><br>
+                        <h5>Awards Winning</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Fun Fact  -->
+
+    <!--About Us Team Section-->
+    <section id="about_us_team" >
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up">
+                <div class="col-xl-6 mb-5">
+                    <div class="row team-member-inner mb-5">
+                        <img src="assets/media/team.svg" alt="Team thumb">
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-1 order-1 order-xl-2">
+                    <div class="team-content about-inner ">
+                        <h2 class="h1 title">We have <span class="theme-color-text">Creative</span> Team<br> <span class="theme-color-text">Discover</span> our experts</h2>
+                        <h3 class="subtitle">Create some exclusive way to solve our customer problems</h3>
+                        <p class="team-desc">labore et dolore magnam aliquam quaerat voluptatem. Ut enim <br> ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam</p>
+                        <br>
+                        <a href="#" class="btn-all">Let's Start</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Us Team Section-->
+
+    <!--About Us Feature-->
+    <section id="about_us_features">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="each-feature">
+                        <div class="icon">
+                            <img src="./assets/media/creativity.svg" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-title">
+                                Creative Ideas
+                            </div>
+                            <div class="desc">
+                                Ideas es to obtain pain of itself, because it is pain, but because occasionallyght ocean
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="each-feature">
+                        <div class="icon ">
+                            <img src="./assets/media/dollar.svg" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-title">
+                                Low Cost
+                            </div>
+                            <div class="desc">
+                                Ideas es to obtain pain of itself, because it is pain, but because occasionallyght ocean
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="each-feature">
+                        <div class="icon">
+                            <img src="./assets/media/network.svg" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-title">
+                                Talented Team
+                            </div>
+                            <div class="desc">
+                                Ideas es to obtain pain of itself, because it is pain, but because occasionallyght ocean
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="each-feature">
+                        <div class="icon">
+                            <img src="./assets/media/customer-service.svg" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-title">
+                                Online Support
+                            </div>
+                            <div class="desc">
+                                Ideas es to obtain pain of itself, because it is pain, but because occasionallyght ocean
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Us Feature-->
+
+    <!--Testimonial Section-->
+    <section id="about_us_testimonial">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-5 col-lg-5 " data-aos="fade-right">
+                    <div class="testimonial-header">
+                        What <span class="theme-color-text">Client’s</span> say
+                        happy reviews
+                    </div>
+                    <div class="testimonial-slider owl-carousel">
+                        <div class="item">
+                            <div class="message">
+                                <blockquote><i class="las la-quote-left"></i> &nbsp;labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis uscipit laboriosam, nisi ex ea commodi consequatur &nbsp;<i class="las la-quote-right"></i></blockquote>
+                                <h5 class="client-name">Roberto Carlox</h5>
+                                <h6 class="client-design">CEO, Selorex</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="message">
+                                <blockquote><i class="las la-quote-left"></i> &nbsp;labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis uscipit laboriosam, nisi ex ea commodi consequatur &nbsp;<i class="las la-quote-right"></i></blockquote>
+                                <h5 class="client-name">John Doe</h5>
+                                <h6 class="client-design">CEO, Selorex</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="message">
+                                <blockquote><i class="las la-quote-left"></i> &nbsp;labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis uscipit laboriosam, nisi ex ea commodi consequatur &nbsp;<i class="las la-quote-right"></i></blockquote>
+                                <h5 class="client-name">Jackson</h5>
+                                <h6 class="client-design">CEO, Selorex</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7 offset-xl-1 order-1 order-lg-2 " >
+                    <div class="testimonial-thumb moving-vertical">
+                        <div class="thumb">
+                            <div data-aos="fade-left">
+                                <img src="./assets/media/portfolio/though-project/undraw_feedback_h2ft.svg" alt="testimonial thumb">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Testimonial Section-->
+</section>
+<!--About Us-->
+
+
+<!--Footer-->
+<div id="footer">
+    <div class="top-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5 mt-5">
+                    <div class="contact_info">
+                        <!--Footer Logo-->
+                        <div class="footer-logo">
+                            <a href="javascript:void(0)">
+                                <img src="./assets/placeholder/175.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="description">
+                                Building Better Technology, Empowering IT Solutions.
+                            </div>
+                            <div class="contact-list">
+                                <!--Contact Info-->
+                                <div class="address info-box">
+                                    <div class="bold-text">Address:</div>
+                                    <div class="small-text">Shahi Tower, Section 7, Plot: k/25, Upashahar, Jashore</div>
+                                </div>
+                                <div class="phone info-box">
+                                    <div class="bold-text">phone:</div>
+                                    <div class="small-text">
+                                        <div> +44 1632 960625</div>
+                                    </div>
+                                </div>
+                                <div class="web info-box">
+                                    <div class="bold-text">Web:</div>
+                                    <div class="small-text">
+                                        <div>example@main.com</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5 mt-5">
+                    <!--Our Links-->
+                    <div class="our-links">
+                        <div class="title">
+                            Our Link
+                        </div>
+                        <div class="content">
+                            <ul class="footer-nav">
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Home</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> About Us</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Services</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Blog Post</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Pages</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Contact Us</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Support</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Conditions</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Login</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Register</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5 mt-5">
+                    <!--News Letter-->
+                    <div class="newsletter">
+                        <div class="title">
+                            Newsletter
+                        </div>
+                        <div class="content">
+                            <div class="desc">
+                                Subscribe our Newsletter because occasionallyght ocean he and he can make some of noise
+                                to us <br>
+                                <strong>To get all latest update and news Subscribe our newsletter now!</strong>
+                            </div>
+                            <br>
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Enter your email here" class="form-control">
+                                </div>
+                                <button class="btn Subscribe-btn">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        Copyright © <a href="javascript:void(0)">QTech</a>
+    </div>
+</div>
+<!--Footer-->
+
+
+<script>
+    //Count
+    document.addEventListener("DOMContentLoaded", () => {
+        function counter(id, start, end, duration) {
+            let obj = document.getElementById(id),
+                current = start,
+                range = end - start,
+                increment = end > start ? 1 : -1,
+                step = Math.abs(Math.floor(duration / range)),
+                timer = setInterval(() => {
+                    current += increment;
+                    obj.textContent = current;
+                    if (current == end) {
+                        clearInterval(timer);
+                    }
+                }, step);
+        }
+        counter("count1", 0, 550, 3000);
+        counter("count2", 100, 550, 2500);
+        counter("count3", 0, 940, 3000);
+        counter("count4", 0, 340, 3000);
+    });
+</script>
+
+
+<!--AOS Js-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--AOS Js-->
+
+<!--Custom Js-->
+<script src="./assets/js/custom.js"></script>
+<!--Custom Js-->
+
+
+</body>
+</html>

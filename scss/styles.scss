@@ -1,0 +1,59 @@
+//Author: Ahmed Zobayer
+//Author Email: zobayer.me@gmail.com
+//version v0.1.0
+
+//Import
+@import "variables";
+@import "global";
+body{
+  margin: 0;
+  padding: 0;
+  background-color:$background_theme_color !important;
+  font-family: 'Montserrat', sans-serif !important;
+/*
+  Topbar
+*/
+@import "shared/topbar";
+
+
+/*====================
+  Home
+====================*/
+@import "shared/home";
+
+
+/*====================
+  services
+====================*/
+@import "shared/services";
+
+/*====================
+About Us
+====================*/
+@import "shared/about";
+
+/*====================
+FAQ
+====================*/
+@import "shared/faq";
+
+/*====================
+BLOG
+====================*/
+@import "shared/blog";
+
+/*====================
+Single BLOG
+====================*/
+@import "shared/single";
+
+/*====================
+Contact
+====================*/
+@import "shared/contact";
+
+/*
+  Footer
+*/
+@import "shared/footer";
+}

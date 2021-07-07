@@ -1,0 +1,77 @@
+
+
+//global Class
+//thumb image
+.thumb{
+  min-height: 200px;
+  padding: 20px 0;
+  width: 100%;
+  overflow: hidden;
+}
+.count{
+  text-align: center;
+  font-size: 45px !important;
+
+}
+//animation Class
+.moving-vertical{
+  -webkit-animation-name: float-bob;
+  animation-name: float-bob;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+//Moving vertical animation
+@keyframes float-bob {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+//FadeIn Down
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+}
+
+//Theme text color
+.theme-color-text{
+  color: $theme-two;
+}
+.btn-all{
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: bold;
+  border: none;
+  background-color: $theme;
+  font-size: 18px;
+  color: $white;
+  border-radius: 25px;
+  transition: .2s ease-in-out;
+  &:hover{
+    text-decoration: none;
+    transition: .2s ease-in-out;
+    color: $white;
+    background-color: $black;
+  }
+}

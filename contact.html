@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QTech | Creative Portfolio</title>
+
+    <!--  Custom CSS  -->
+    <link rel="stylesheet" href="./assets/style/styles.min.css">
+    <!--  Custom CSS  -->
+
+    <!--  Jquery  -->
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <!--  Jquery  -->
+
+    <!--  Bootstrap 4  -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <script src="./assets/bootstrap/popper.min.js"></script>
+    <script src="./assets/bootstrap/bootstrap.min.js"></script>
+    <!--  Bootstrap 4  -->
+
+    <!--  Line Awesome  -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!--  Line Awesome  -->
+
+
+
+    <!--  Owl Carousel  -->
+    <script src="./assets/owl-carousel/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="./assets/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/owl-carousel/owl.carousel.min.css">
+    <!--  Owl Carousel  -->
+
+    <!--    font Montserrat   -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!--    font Montserrat   -->
+
+    <!--  AOS css  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  AOS css  -->
+
+    <!--    Map   -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAP_KEY&libraries=places"></script>
+    <!--    Map   -->
+</head>
+<body>
+<!--Top Bar-->
+<header id="header">
+
+    <!--  Top Nav  -->
+    <div class="top-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+
+                    <!--Contact Number-->
+                    <div class="text-left call-num">Call Us: <a href="javascript:void(0)">+44 1632 960625</a> </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="top-nav-setting d-flex justify-content-end">
+                        <div class="social-links">
+                            <a href="javascript:void(0)"  target="_blank"><i class="lab la-facebook"></i></a>
+                            <a href="javascript:void(0)"><i class="lab la-github"></i></a>
+                            <a href="javascript:void(0)"><i class="lab la-youtube"></i></a>
+                            <a href="javascript:void(0)"><i class="lab la-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Top Nav  -->
+
+    <!--  Main Nav  -->
+    <div class="main-nav">
+        <div class="container">
+            <div class="logos">
+                <a href="index.html">
+                    <img src="./assets/placeholder/175.jpg"  alt="">
+                </a>
+            </div>
+            <div class="toggle_button">
+                <button class="btn" onclick="openNav()">
+                    <div class="bar bar1"></div>
+                    <div class="bar"></div>
+                    <div class="bar bar1"></div>
+                </button>
+            </div>
+            <ul class="navs">
+                <li class="nav-items"><a href="index.html" class="nav-links">HOME</a></li>
+                <li class="nav-items"><a href="services.html" class="nav-links">SERVICES</a></li>
+                <li class="nav-items"><a href="about.html" class="nav-links ">ABOUT US</a></li>
+                <li class="nav-items"><a href="faq.html" class="nav-links ">FAQ</a></li>
+                <li class="nav-items"><a href="blog.html" class="nav-links">BLOG</a></li>
+                <li class="nav-items"><a href="contact.html" class="nav-links active">CONTACT</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!--  Main Nav  -->
+
+    <!--  Main Nav Two  -->
+    <div class="main-nav-two">
+        <ul class="navs-two">
+            <li class="nav-items-two"><a href="index.html" class="nav-links-two">HOME</a></li>
+            <li class="nav-items-two"><a href="services.html" class="nav-links-two">SERVICES</a></li>
+            <li class="nav-items-two"><a href="about.html" class="nav-links-two">ABOUT US</a></li>
+            <li class="nav-items-two"><a href="faq.html" class="nav-links-two">FAQ</a></li>
+            <li class="nav-items-two"><a href="blog.html" class="nav-links-two">BLOG</a></li>
+            <li class="nav-items-two"><a href="contact.html" class="nav-links-two active">CONTACT</a></li>
+        </ul>
+
+        <ul class="contact-info">
+            <li class="info-item"><i class="las la-phone"></i> +44 1632 960625</li>
+            <li class="info-item"><i class="lar la-envelope"></i>  example@mail.com</li>
+            <li class="info-item">
+                <a class="info-link" href="" target="_blank"><i class="lab la-facebook"></i></a>
+                <a class="info-link" href="javascript:void(0)"><i class="lab la-github"></i></a>
+                <a class="info-link" href="javascript:void(0)"><i class="lab la-youtube"></i></a>
+                <a class="info-link" href="javascript:void(0)"><i class="lab la-linkedin"></i></a>
+            </li>
+        </ul>
+    </div>
+    <!--  Main Nav Two  -->
+</header>
+<!--Top Bar-->
+
+<!--Contact Section-->
+<section id="contact-section">
+    <!--map-->
+    <div id="map" class="map">
+        <img src="./assets/placeholder/map.png" alt="Map" style="width: 100%">
+    </div>
+    <!--map-->
+    <!--Contact-->
+    <div class="contact-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 p-5">
+                    <div class="contact-message">
+                        <h2 class="h1 title contact-title">Tell Us Your Project</h2>
+                        <form id="contact-form"  method="post" class="contact-form">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input name="first_name" placeholder="Name *" type="text" required="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input name="phone" placeholder="Phone *" type="text" required="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input name="email_address" placeholder="Email *" type="text" required="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input name="contact_subject" placeholder="Subject *" type="text">
+                                </div>
+                                <div class="col-12">
+                                    <div class="contact2-textarea text-center">
+                                        <textarea placeholder="Message *" name="message" class="form-control2" required=""></textarea>
+                                    </div>
+                                    <div class="contact-btn">
+                                        <button class="btn-all" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex justify-content-center">
+                                    <p class="form-messege"></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 mb-5 p-5">
+                    <div class="contact-information">
+                        <h2 class="h1 title contact-title">Contact Us</h2>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
+                            est notare quam littera gothica, quam nunc putamus parum claram anteposuerit litterarum
+                            formas human.
+                        </p>
+                        <ul class="mb-5">
+                            <li><i class="lar la-address-card"></i> Address : No 40 Baria Sreet 133/2 NewYork City</li>
+                            <li><i class="lar la-envelope"></i> E-mail: info@yourdomain.com</li>
+                            <li><i class="las la-phone"></i> +88013245657</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
+
+</section>
+<!--Contact Section-->
+
+<!--Footer-->
+<div id="footer">
+    <div class="top-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5 mt-5">
+                    <div class="contact_info">
+                        <!--Footer Logo-->
+                        <div class="footer-logo">
+                            <a href="javascript:void(0)">
+                                <img src="./assets/placeholder/175.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="description">
+                                Building Better Technology, Empowering IT Solutions.
+                            </div>
+                            <div class="contact-list">
+                                <!--Contact Info-->
+                                <div class="address info-box">
+                                    <div class="bold-text">Address:</div>
+                                    <div class="small-text">Shahi Tower, Section 7, Plot: k/25, Upashahar, Jashore</div>
+                                </div>
+                                <div class="phone info-box">
+                                    <div class="bold-text">phone:</div>
+                                    <div class="small-text">
+                                        <div> +44 1632 960625</div>
+                                    </div>
+                                </div>
+                                <div class="web info-box">
+                                    <div class="bold-text">Web:</div>
+                                    <div class="small-text">
+                                        <div>example@main.com</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5 mt-5">
+                    <!--Our Links-->
+                    <div class="our-links">
+                        <div class="title">
+                            Our Link
+                        </div>
+                        <div class="content">
+                            <ul class="footer-nav">
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Home</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> About Us</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Services</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Blog Post</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Pages</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Contact Us</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Support</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Conditions</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Login</span></a></li>
+                                <li class="footer-item"><a href="javascript:void(0)" class="footer-links"><span
+                                        class="icon"><i class="las la-angle-double-right"></i></span><span
+                                        class="link"> Register</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5 mt-5">
+                    <!--News Letter-->
+                    <div class="newsletter">
+                        <div class="title">
+                            Newsletter
+                        </div>
+                        <div class="content">
+                            <div class="desc">
+                                Subscribe our Newsletter because occasionallyght ocean he and he can make some of noise
+                                to us <br>
+                                <strong>To get all latest update and news Subscribe our newsletter now!</strong>
+                            </div>
+                            <br>
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Enter your email here" class="form-control">
+                                </div>
+                                <button class="btn Subscribe-btn">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        Copyright © <a href="javascript:void(0)">QTech</a>
+    </div>
+</div>
+<!--Footer-->
+
+<!--AOS Js-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--AOS Js-->
+<!--Custom Js-->
+<!--<script src="./assets/js/custom.js"></script>-->
+<!--Custom Js-->
+
+</body>
+</html>

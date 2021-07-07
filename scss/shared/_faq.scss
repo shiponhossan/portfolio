@@ -1,0 +1,139 @@
+#faq{
+  margin-top: 125px;
+  //Breadcrumb Area
+  .faq-breadcrumb-area{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .faq-breadcrumb-wrap{
+      padding: 95px 0 100px;
+      text-align: center;
+      .faq-breadcrumb-title{
+        color: #fff;
+        font-size: 40px;
+        line-height: 1;
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+      .faq-breadcrumb{
+        background: transparent;
+        margin-bottom: 0;
+        padding: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        .faq-breadcrumb-item{
+          line-height: 1;
+          font-size: 18px;
+          text-transform: capitalize;
+          color: #fff;
+          a{
+            text-decoration: none;
+            color: $white;
+            transition: .2s ease;
+            &:hover{
+              transition: .2s ease;
+              color: $black;
+            }
+          }
+          &.active{
+            margin-top: 2px;
+            text-transform: capitalize;
+          }
+          &:last-child:before{
+            color: $white;
+            content: "/";
+            font-size: 12px;
+            margin: 0 5px;
+          }
+        }
+
+      }
+    }
+  }
+
+  //  General Question
+  .general-question{
+    padding: 150px;
+    background-color: white;
+    @media screen and (max-width: 780px){
+      padding:150px 50px;
+    }
+    @media screen and (max-width: 650px){
+      padding: 150px 20px;
+    }
+    #accordion{
+      .card{
+        margin-bottom: 50px;
+        .card-header{
+          cursor: pointer;
+          width: 100%;
+          height: 100%;
+          text-align: left;
+          box-shadow: none;
+          padding: 20px;
+          &:hover{
+            background-color: $theme;
+            color: white;
+
+          }
+          &.collapsed{
+            background-color: $theme;
+            color: white;
+          }
+          h5{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  //  Payment And Gift
+  .payment-gift{
+    padding: 0 50px 150px 50px;
+    background-color: white;
+    @media screen and (max-width: 780px){
+      padding:0 50px 150px 50px;
+    }
+    @media screen and (max-width: 650px){
+      padding: 0 20px 150px 20px;
+    }
+    #accordion{
+      .card{
+        margin-bottom: 50px;
+        .card-header{
+          cursor: pointer;
+          width: 100%;
+          height: 100%;
+          text-align: left;
+          box-shadow: none;
+          padding: 20px;
+          &:hover{
+            background-color: $theme;
+            color: white;
+
+          }
+          &.collapsed{
+            background-color: $theme;
+            color: white;
+          }
+          h5{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
